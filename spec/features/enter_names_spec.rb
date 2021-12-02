@@ -1,10 +1,7 @@
 
 feature 'Player names' do
   scenario 'players can fill in their names' do
-    visit('/')
-    fill_in('Player_1', with: 'David')
-    fill_in('Player_2', with: 'Tom')
-    click_button 'Submit'
+    sign_in_and_play
 
     # save_and_open_page 
 
