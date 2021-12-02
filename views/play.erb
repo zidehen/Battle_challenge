@@ -1,6 +1,6 @@
-<%= @Player_1 %> vs. <%= @Player_2 %>
+<%= @Player_1.name %> vs. <%= @Player_2.name %>
 <br>
-<%= @Player_2 %>: 20 HP
+<%= @Player_2.name %>: <%= @Player_2.hp %> HP
 <br>
-<a href='/attack'>Attack!</a>
-
+<%# <input type='submit' value='Attack'> %>
+<a href='/attack'>Attack</a>
